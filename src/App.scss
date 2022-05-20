@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC&display=swap');
+
+$bgcolor: #FAF7F7;;
+$header_color:  rgba(238, 238, 238, 0.5);
+$main_text: 'Spectral SC', serif;
+$title_text : 'Cormorant';
+$text_color:  #000000;
+
+.container{
+    font-family: $main_text ;
+    padding: 0 10vw;
+    font-family: $main_text;
+    color: $text_color;
+    a {
+        text-decoration: none;
+        color: #000000;
+        margin-top: 0px;
+    }
+}
+
+.content {
+    font-family: $main_text;
+
+       
+}
+
+body{
+    background: $bgcolor;
+}
+

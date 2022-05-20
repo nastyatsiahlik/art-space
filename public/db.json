@@ -1,0 +1,54 @@
+
+{
+    "paints": [
+        {
+            "id" : 0,
+            "imgUrl": "./img/p0.png",
+            "paintName": "Апрель",
+            "autorName": "Микель Барсеро",
+            "price": 534,
+            "availability": true 
+        },
+        {
+            "id" : 1,
+            "imgUrl": "./img/p1.png",
+            "paintName": "Май",
+            "autorName": "Микель Барсеро",
+            "price": 534,
+            "availability": true 
+        },
+        {
+            "id" : 2,
+            "imgUrl": "./img/p2.png",
+            "paintName": "Весна",
+            "autorName": "Анастасия Перс",
+            "price": 342,
+            "availability": true 
+        },
+        {
+            "id" : 3,
+            "imgUrl": "./img/p3.png",
+            "paintName": "Октябрь",
+            "autorName": "Микель Барсеро",
+            "price": 534,
+            "availability": false 
+        },
+        {
+            "id" : 4,
+            "imgUrl": "./img/p4.png",
+            "paintName": "Апрель",
+            "autorName": "Микель Барсеро",
+            "price": 534,
+            "availability": false 
+        },
+        {
+            "id" : 5,
+            "imgUrl": "./img/p5.png",
+            "paintName": "Апрель",
+            "autorName": "Микель Барсеро",
+            "price": 534,
+            "availability": false 
+        }
+
+    ]
+}

@@ -1,0 +1,54 @@
+.paints_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.search {
+  width: 30%;
+}
+
+.filter {
+  width: 30%;
+  text-align: right;
+  margin-top: 10px;
+}
+.filter li {
+  display: inline;
+  text-decoration: none;
+  margin-right: 2vw;
+  font-size: 12px;
+}
+
+.paints-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.paint {
+  width: 30%;
+  margin: 1.5%;
+}
+.paint img {
+  width: 100%;
+}
+
+.paint_discr h3 {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 10px 0 0px;
+}
+.paint_discr h4 {
+  font-weight: 400;
+  font-size: 11px;
+  margin: 5px 0 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  margin-top: 0px;
+}
+
+/*# sourceMappingURL=Paints.css.map */

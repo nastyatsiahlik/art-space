@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+
+$bgcolor: #FAF7F7;;
+$header_color:  rgba(238, 238, 238, 0.5);
+$main_text: 'Spectral SC', serif;
+$title_text : 'Cormorant', serif;
+$text_color:  #000000;
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: $header_color;
+    font-family: $main_text;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 10px 10%;
+        img {
+           
+            padding: 0 10px 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #000000;
+            margin-top: 0px;
+        }
+       
+}
+
+.logo {
+    width: 25%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: $title_text;
+}
+
+.menu_items {
+    padding-right: 25px;
+    font-size: 10px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+        li {
+            display: inline;
+            text-decoration: none;
+            margin-right: 2vw;
+        }
+ 
+    }
+
+.footer{
+  padding: 50px 10% ;
+  margin-top: 50px;
+}
